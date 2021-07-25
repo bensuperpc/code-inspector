@@ -14,8 +14,8 @@ LABEL org.label-schema.schema-version="1.0" \
    org.label-schema.vcs-ref=$VCS_REF \
    org.label-schema.docker.cmd="docker build -t bensuperpc/code-inspector -f Dockerfile ."
 
-RUN apk add python3 --no-cache
-RUN pip3 install code-inspector
+RUN apk add py3-pip --no-cache
+RUN pip3 install code-inspector --no-cache-dir
 
 COPY entrypoint.sh /entrypoint.sh
 
