@@ -1,3 +1,5 @@
+[![main-code-inspector](https://github.com/bensuperpc/code-inspector/actions/workflows/main.yml/badge.svg)](https://github.com/bensuperpc/code-inspector/actions/workflows/main.yml) [![code-inspector](https://github.com/bensuperpc/code-inspector/actions/workflows/code-inspector.yml/badge.svg)](https://github.com/bensuperpc/code-inspector/actions/workflows/code-inspector.yml) [![tagged-release](https://github.com/bensuperpc/code-inspector/actions/workflows/release.yml/badge.svg)](https://github.com/bensuperpc/code-inspector/actions/workflows/release.yml)
+
 [![Code Quality](https://www.code-inspector.com/project/8488/score/svg)](https://frontend.code-inspector.com/public/project/25678/github-action/dashboard)
 [![Code Grade](https://www.code-inspector.com/project/8488/status/svg)](https://frontend.code-inspector.com/public/project/25678/github-action/dashboard)
 
