@@ -70,16 +70,16 @@ jobs:
     steps:
     - name: Check code meets quality standards
       id: code-inspector
-      uses: codeinspectorio/github-action@master
+      uses: bensuperpc/code-inspector@v1.0.2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         code_inspector_access_key: ${{ secrets.CODE_INSPECTOR_ACCESS_KEY }}
         code_inspector_secret_key: ${{ secrets.CODE_INSPECTOR_SECRET_KEY }}
         min_quality_grade: 'WARNING'
-        min_quality_score: '50'
-        max_defects_rate: '0.0001'
-        max_complex_functions_rate: '0.0001'
-        max_long_functions_rate: '0.0001'
+        min_quality_score: '70'
+        max_defects_rate: '0.001'
+        max_complex_functions_rate: '0.005'
+        max_long_functions_rate: '0.005'
         project_name: ''
         max_timeout_sec: '600'
 ```
