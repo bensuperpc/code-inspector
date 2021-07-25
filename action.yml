@@ -1,4 +1,4 @@
-name: 'Code Inspector'
+name: 'Code Inspector github'
 description: 'Ensure your code quality meet given standards'
 inputs:
   repo_token:
